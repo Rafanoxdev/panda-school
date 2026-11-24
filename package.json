@@ -1,0 +1,13 @@
+{
+  "name": "panda-school",
+  "version": "0.1.0",
+  "description": "App PWA gamificado de simulados de prova para crianças e adolescentes.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve app -l 3000",
+    "rename": "node scripts/rename.mjs",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
